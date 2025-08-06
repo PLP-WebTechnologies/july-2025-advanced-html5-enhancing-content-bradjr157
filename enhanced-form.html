@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enhanced HTML5 Form Page</title>
+   <style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 2rem;
+        
+    }
+    header, section, footer {
+        margin-bottom: 2rem;
+    }
+    table, th, td {
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+        padding: 0.5rem;
+    }
+    fieldset {
+        margin-top: 1rem;
+        border: 1px solid #ccc;
+        padding: 1rem;
+    }
+    legend {
+        font-weight: bold;
+    }
+        
+    
+    label {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+</style>
+</head>
+
+        <input, select, textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        video, audio {
+            max-width: 100%;
+            height: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HTML5 Enhanced Content and Form Demo</h1>
+        <p>This page showcases advanced HTML5 features including lists, tables, media and a fully structured form with built-in validation.</p>
+    </header>
+
+    <section></section>
+    <h2>Favorite Web Technologies</h2>
+    <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Web Accessibility</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Development Tools Comparison</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Tool</th>
+                <th>Type</th>
+                <th>Free Paid</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Figma</td>
+                <td>UI/UX Design</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td>Github</td>
+                <td>Version Control</td>
+                <td>Free</td>
+            </tr>
+        </tbody>
+        </table>
+        </section>
+
+    <section>
+        <h2>Intro Video and Background Music</h2>
+        <video controls width="480">
+            <source src="intro-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+
+        <audio controls>
+            <source src="background-music.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post" autocomplete="on">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required minlength="2" placeholder="Your full name" />
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="bradleymuluh@gmail.com">
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required />
+
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="other">Other</option>
+                </select>
+                </fieldset>
+
+            <fieldset>
+                <legend>Account Details</legend>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" pattern="[a-zA-Z0-9]{5,15}" title="5-15 alphanumeric characters" required/>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" minilength="6 required">
+
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" minilength="6" required />
+
+                <label>
+                    <input type="checkbox" id="terms" name="terms" required />
+                    I agree to the terms and conditions
+                    </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Info</legend>
+                <label for="bio">Short Bio:</label>
+                <textarea id="bio" name="bio" rows="4" placeholder="Rell us abit about yourself...." <>/textarea>
+
+                <label for="referral">How did you hear about us?:</label>
+                <select id="referral" name="referral">
+                    <option value="">Choose one</option>
+                    <option value="social">Social Media</option>
+                    <option value="friend">Friend/Colleague</option>
+                    <option value="other">Other</option>
+
+                <button type="submit">Submit>Register</button>
+                <button type="reset">Reset Form</button>
+                </form>
+                </section>
+
+    <footer>
+        <p>&copy; 2025 My Enhanced Web Page. All rights reserved.</p
+    </footer>
+</body>
+</html>
+
+       
+        
